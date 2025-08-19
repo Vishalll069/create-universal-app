@@ -1,23 +1,42 @@
 {
-  "name": "universal",
+  "name": "create-universal-app",                       
   "version": "1.0.0",
+  "description": "A universal CLI to scaffold production-ready apps with React, Next.js, React Native, Vue, Angular, and more.",
+  "bin": {
+    "create-universal-app": "./bin/index.js"
+  },
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "type": "module",
+  "keywords": [
+    "cli",
+    "scaffolding",
+    "react",
+    "nextjs",
+    "vue",
+    "angular",
+    "react-native",
+    "boilerplate",
+    "starter",
+    "universal"
+  ],
+  "author": "Vishalll069",
+  "license": "MIT",
+  "homepage": "https://github.com/Vishalll069/create-universal-app.git#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vishalll069/create-universal-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vishalll069/create-universal-app.git/issues"
+  },
   "dependencies": {
     "chalk": "^5.6.0",
     "commander": "^14.0.0",
     "execa": "^9.6.0",
     "inquirer": "^12.9.3",
     "path": "^0.12.7"
-  },
-  "bin": {
-    "create-universal-app": "./bin/index.js"
   }
 }
